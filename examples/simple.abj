@@ -1,0 +1,12 @@
+model Point {
+  x: Integer;
+  y: Integer;
+}
+
+facet main(args: String[]): Integer;
+
+define main(args: String[]): Integer {
+  ("Hello world", "foo")=>Print;
+
+  return 0;
+}
